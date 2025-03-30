@@ -1,0 +1,15 @@
+{
+  "name": "twbot",
+  "version": "1.0.0",
+  "description": "Twitch Bot Using tmi.js & Twitch API",
+  "main": "twBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jorge Espada",
+  "license": "ISC",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
