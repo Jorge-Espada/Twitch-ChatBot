@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch Bot</title>
+    <link rel="stylesheet" href="css/photon.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="toolbar toolbar-header">
+        <h1 class="title">Twitch Bot</h1>
+    </header>
+
+    <div class="tab-group">
+        <div id="commands" class="tab-item active">
+            Comandos
+        </div>
+        <div id= "predictions" class="tab-item">
+            Predicciones
+        </div>
+        <div id="polls" class="tab-item">
+            Encuestas
+        </div>
+        <div id="words" class="tab-item">
+            Palabras prohibidas
+        </div>
+    </div>
+
+    <div class="logMenu">
+        <div id="perfil">
+            <img class="img-circle media-object pull-left" src="./public/Twitch.jpg" width="32" height="32">
+            <div class="media-body">
+                <strong id="usernameName">Nombre del usuario</strong>
+            </div>
+        </div>
+
+        <!--LogOut oculto hasta que den click-->
+        <div id="logOut" class="oculto">
+            <button id="logOutOculto" class="btn btn-large btn-negative">Log Out</button>
+        </div>
+    </div>
+
+
+    <div id="pantallaPrincipal">
+        <div id="pantallaLogin">
+            <h2>LogIn</h2>
+
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="clientId" placeholder="Client ID">
+            <input type="password" id="secretKey" placeholder="Secret Key">
+            <input type="password" id="code" placeholder="Code">
+
+            <button id="loginButton">Connect</button>
+
+            <a href="https://github.com/Jorge-Espada/Twitch-ChatBot#instructions">¿Cómo sacar las claves?</a>
+        </div>
+    </div>
+
+    <div id="pantallaPrincipalInfo">
+        <p>Hola prueba</p>
+    </div>
+
+
+
+    <script src="./functions.js"></script>
+</body>
+
+</html>

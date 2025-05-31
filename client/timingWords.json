@@ -1,0 +1,23 @@
+[
+  {
+    "message": "hola",
+    "timer": 10,
+    "counter": 5,
+    "countMessages": 5,
+    "isActive": true
+  },
+  {
+    "message": "adios",
+    "timer": 20,
+    "counter": 10,
+    "countMessages": 10,
+    "isActive": true
+  },
+  {
+    "message": "prueba",
+    "timer": 30,
+    "counter": 15,
+    "countMessages": 12,
+    "isActive": true
+  }
+]

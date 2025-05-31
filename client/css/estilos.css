@@ -1,0 +1,241 @@
+.logMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#perfil {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px #0000001a; 
+  justify-content: center;
+  width: 110px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#perfil:hover {
+  background-color: #f2b0ffaf;
+  cursor: pointer;
+}
+
+.media-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.media img, .media-body{
+  pointer-events: none;
+}
+
+#logOut {
+  text-align: right;
+  margin-top: 10px;
+  width: auto;
+  margin-right: 27.5px;
+  visibility: hidden;
+}
+
+#logOutOculto {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#logOutOculto {
+  cursor: pointer;
+}
+
+body {
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+#pantallaLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    padding-bottom: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 3px solid #b919be;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#pantallaLogin input, button {
+   margin: 10px 0;
+   width: 225px;
+}
+
+#pantallaLogin input{
+  width: 90%;
+  border: 2px solid gainsboro;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#pantallaLogin button{
+    padding: 12px;
+    background-color: #824eb9;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #b919be;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#pantallaLogin button:hover{
+  background-color: #4d2881;
+}
+
+#pantallaLogin h2{
+  font-size: 37px;
+  color: #824eb9;
+  font-weight: bold;
+}
+
+#pantallaLogin a{
+  cursor: pointer;
+}
+
+#pantallaPrincipal{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+#pantallaPrincipalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    padding-bottom: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    overflow: auto;
+    max-height: 400px;
+    min-width: 300px;
+}
+
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: #6c757d;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+td {
+  color: #343a40;
+  max-width: 300px;
+  word-wrap: break-word;
+  white-space: normal;
+  padding: 10px;
+}
+
+#crearPredicciones{
+  margin-top: 50%;
+  position: relative;
+  margin-top: 20px;
+}
+
+#crearPredicciones h2{
+    color: white; 
+    font-size: 28px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+    border: 2px solid #6f42c1;
+    border-radius: 8px;
+    background-color: #9f31bbda;    
+}
+
+#optionsPred {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.optionInput {
+    width: 80%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#crearPolls{
+  margin-top: 50%;
+  position: relative;
+  margin-top: 20px;
+}
+
+#crearPolls h2{
+    color: white; 
+    font-size: 28px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+    border: 2px solid #6f42c1;
+    border-radius: 8px;
+    background-color: #9f31bbda
+    
+}
+
+#optionsPoll {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+}
