@@ -35,11 +35,11 @@ Code is commented in Spanish, will be translated to English soon...
 ### Instructions
 In this annex, the instructions for extracting codes and credentials to connect to the application will be provided. The first step is to access the following link using a Twitch account: 🔗 https://dev.twitch.tv/console
 
-![alt text](82e108e7-8a5b-4196-b418-cd01b5a77c61.png)
+![alt text](Images/82e108e7-8a5b-4196-b418-cd01b5a77c61.png)
 
 Once inside, we will find ourselves on this tab. To proceed, click on the button in the upper right corner: “Register Your Application”.
 
-![alt text](49427509-c94d-4215-9ad5-595f73adcef6.png)
+![alt text](Images/49427509-c94d-4215-9ad5-595f73adcef6.png)
 
 Once inside, you must name the application, provide a redirect URL (if using this project, it should be http://localhost:3000), and select a category, which in this case will be “Chat Bot”. The Confidential Client option will remain enabled, and you can proceed by clicking the Create button after completing the CAPTCHA.
 
@@ -79,7 +79,7 @@ These permissions grant access to the following functionalities:
 
 By copying and pasting this link into the browser, Twitch will request permissions to grant everything specified in the link. Once inside, a page with an error will appear; however, this is expected, and you are in the correct place.
 
-![alt text](57024059-677b-4842-8dde-167b71e34ac2.png)
+![alt text](Images/57024059-677b-4842-8dde-167b71e34ac2.png)
 
 In the search bar, you will see a different link than the one entered. In this link, at the beginning, there will be a section indicating a code.
 
