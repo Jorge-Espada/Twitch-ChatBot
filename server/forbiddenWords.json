@@ -1,0 +1,14 @@
+[
+    {
+        "word": "brocoli",
+        "punishment": 1
+    },
+    {
+        "word": "zanahoria",
+        "punishment": 2
+    },
+    {
+        "word": "patata",
+        "punishment": 0
+    }
+]
